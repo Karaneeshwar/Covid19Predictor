@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.banner {
+    background: url("{{ url_for('static', filename='banner.jpg') }}") no-repeat center center/cover;
+    padding: 60px;
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.container {
+    margin: 20px auto;
+    width: 50%;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input[type="file"] {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    background: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+.result-card {
+    margin-top: 20px;
+    padding: 20px;
+    background: #e9f5ff;
+    border-radius: 10px;
+}
+
+.result-card h2 {
+    color: #333;
+}
+
+.result-card p {
+    font-size: 18px;
+    color: #555;
+}
+
+.result-card img {
+    margin-top: 10px;
+    width: 100px;
+    height: auto;
+    border-radius: 5px;
+}
