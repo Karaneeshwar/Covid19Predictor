@@ -50,7 +50,7 @@ Please cite the dataset source if you use it in your work.
 ## Sample Outputs
 
 **Prediction with Grad-CAM Heatmap**
-![Grad-CAM Example](../classifier/test_images/cov_gradcam.png)
+<img width="224" height="224" alt="cov_gradcam" src="https://github.com/user-attachments/assets/7ae749ae-01ce-415b-aec7-bcd6de795d3f" />
 
 ---
 
